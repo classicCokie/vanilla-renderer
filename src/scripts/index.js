@@ -1,3 +1,8 @@
+import homeController from './components/home/home.controller';
 import '../styles/index.scss';
 
-console.log('webpack starterkit');
+function main() {
+    homeController();
+}
+
+window.onload = main;
